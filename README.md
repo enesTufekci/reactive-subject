@@ -1,6 +1,6 @@
 # Reactive Subject
 
-Standalone RxJS [Behaviour Subject](https://www.learnrxjs.io/subjects/) implementation but simpler (for now). Emits its value to multiple subscribers.
+Standalone RxJS [Behaviour Subject](https://www.learnrxjs.io/subjects/) implementation but simpler (for now). Emits its value to multiple subscribers on every value change.
 
 ### Installation
 
@@ -47,4 +47,6 @@ subject.next(2);
 
     subscriber 2 -> 2
   */
+
+subject.getValue(); // 2
 ```
